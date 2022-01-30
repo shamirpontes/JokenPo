@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "ConsoleApp1\Game.csproj", "{3EFCB1F1-B80C-4F46-9DEF-1C5E437D8A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Service", "Game.Service\Game.Service.csproj", "{CBCB6468-0282-45E3-91F5-314A6D513119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{CAC2428E-AE92-49EB-B216-D7E0B1B383D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EFCB1F1-B80C-4F46-9DEF-1C5E437D8A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFCB1F1-B80C-4F46-9DEF-1C5E437D8A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFCB1F1-B80C-4F46-9DEF-1C5E437D8A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFCB1F1-B80C-4F46-9DEF-1C5E437D8A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCB6468-0282-45E3-91F5-314A6D513119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCB6468-0282-45E3-91F5-314A6D513119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCB6468-0282-45E3-91F5-314A6D513119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCB6468-0282-45E3-91F5-314A6D513119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC2428E-AE92-49EB-B216-D7E0B1B383D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC2428E-AE92-49EB-B216-D7E0B1B383D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC2428E-AE92-49EB-B216-D7E0B1B383D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC2428E-AE92-49EB-B216-D7E0B1B383D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3C16A55-E4D5-469E-BEDC-28FF6307EE12}
+	EndGlobalSection
+EndGlobal
