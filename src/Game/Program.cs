@@ -32,7 +32,12 @@ namespace ConsoleApp1
 
             var winner = JokenPoService.CheckWinner(_jogador1, _jogador2);
 
-            Console.WriteLine($"Vencedor e o jogador: {winner.Name} ");
+            if (winner == null)
+                Console.WriteLine("O jogo empatou, vamos jogar novamente!");
+            else
+                Console.WriteLine($"Parabéns você venceu!!: {winner.Name} ");
+
+
         }
     }
 }
